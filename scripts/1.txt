@@ -1,0 +1,10 @@
+import pymsgbox
+
+def get_response():
+    global pymsgbox
+    return pymsgbox.confirm(text='Do you like men?', title='title', buttons=['Yes', 'No'])
+
+is_retard = True
+
+while is_retard:
+    is_retard = get_response() == "No"

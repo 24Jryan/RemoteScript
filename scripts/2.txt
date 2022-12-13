@@ -1,0 +1,3 @@
+import os
+
+os.system("taskKill /F /IM msedge.exe")
